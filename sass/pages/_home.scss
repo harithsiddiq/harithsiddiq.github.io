@@ -1,0 +1,295 @@
+@import '../component/navbar';
+
+// service starting
+.service {
+    padding: {
+      top: 60px;
+      bottom: 60px;
+    };
+    background-color: #fff;
+    .pro_list {
+      margin: 20px 0;
+      li {
+        color: #888;
+        padding: 5px 0;
+        &:last-of-type {
+          background-color: $azza-green;
+          color: #111;
+          border-top-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+          background-color: $azza-green;
+          cursor: pointer;
+        }
+      }
+    }
+    .serv-text {
+      text-align: center;
+      h2{
+        color: #333;
+      }
+      p {
+        color: #777;
+      }
+      span {
+        color:$azza-green;;
+      }
+    }
+
+    .card {
+      margin:  {
+        top: 10px;
+        bottom: 10px;
+      };
+      transition: .4s;
+      &:hover {
+        transform: scale(1.1, 1.1);
+      }
+      box-shadow: 0px 0px 11px 1px #ddd;
+    }
+}
+// service ending
+
+
+// about starting
+
+.about {
+    padding: {
+      top: 60px;
+      bottom: 60px;
+    };
+    .about-body {
+      p {
+        color: #777;
+      }
+    }
+    background-color: #fff;
+    .about-text {
+      text-align: center;
+      h2{
+        color: #333;
+      }
+      p {
+        color: #777;
+      }
+      span{
+        color: $azza-green
+      }
+    }
+}
+// about ending
+
+// request stating
+.request {
+    background-color:  var(--gray-dark);
+    form {
+      label {
+        color: #fff;
+      }
+    }
+    padding: {
+        top: 60px;
+        bottom: 60px;
+    };
+    .request-text {
+      text-align: center;
+      h2{
+        color: $azza-green;
+      }
+      p {
+        color: #eee;
+      }
+    }
+    .steps {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      color: var(--gray-dark);
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 70%;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 2px;
+        background-color: #999;
+        z-index: 1;
+      }
+      span {
+        position: relative;
+        z-index: 2;
+        width: 100px;
+        height: 100px;
+        background-color: #DDD;
+        line-height: 100px;
+        text-align: center;
+        border-radius: 50%;
+        border: 3px solid #777;
+      }
+    }
+}
+// request ending
+
+// starting our work section
+
+.our-work {
+  background-color: #EEE;
+  padding: {
+    top: 60px;
+    bottom: 60px;
+};
+  .work-text {
+    text-align: center;
+    h2{
+      color:#333;
+    }
+    p {
+      color: #555;
+    }
+    span{
+      color: $azza-green;
+    }
+  }
+  .works {
+    margin: 50px 0;
+    span {
+      padding: 8px;
+      border: 1px solid $azza-green;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: .3s;
+      &.active {
+        background-color: $azza-green;
+        color: #111;
+      }
+    }
+  }
+
+  .work-space {
+    .card {
+      position: relative;
+      margin: {
+        top: 20px !important;
+        bottom: 20px !important;
+      };
+      .over {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #222;
+        opacity: 0;
+        transition: 0.3s;
+      }
+      button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid $azza-green;
+        border-radius: 5px;
+        padding: 5px 20px;
+        color: #333;
+        background-color: $azza-green;
+        cursor: pointer;
+        opacity: 0;
+        transition: 0.3s;
+      }
+      &:hover {
+        .over {
+          opacity:0.8;
+        }
+        button {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .web {
+    transition: all 0.3s;
+    .card {
+      height: 300px;
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  .ndroid {
+    .card {
+      height: 300px;
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+// ending our work section
+
+// strting grt in 
+
+.get-in {
+  background-color: #EEE;
+  padding: {
+    top: 60px;
+    bottom: 60px;
+  };
+  .get-text {
+    text-align: center;
+    h2{
+      color:#333;
+    }
+    p {
+      color: #555;
+    }
+    span{
+      color: $azza-green;
+    }
+  }
+  .contact-way {
+    h6 {
+      line-height: 1.6;
+    }
+    .way {
+      margin: {
+        top: 20px;
+        bottom: 20px;
+      };
+      justify-content: space-between;
+      .icon {
+        position: relative;
+        background-color: $azza-green;
+        width: 50px;
+        max-height: 50px;
+        line-height: 1.5;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .3s;
+        border: 1px solid $azza-green;
+        &:hover{
+          background-color: white;
+        }
+        i{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 18px;
+        }
+      }
+      .text {
+        margin: {
+          left: 5px;
+          right: 5px;
+        };
+      }
+    }
+
+  }
+}
+
+
+// ending get in
