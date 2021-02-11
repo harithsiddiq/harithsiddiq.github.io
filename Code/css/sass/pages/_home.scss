@@ -1,0 +1,246 @@
+// Start our Feat
+.our-feat {
+    padding: {
+        top: 30px;
+        bottom: 30px;
+    };
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        .icon {
+            i {
+                color: $main-color;
+            }
+            padding-right: 17px;
+            .title {
+                padding: {
+                    top: 5px;
+                    bottom: 5px;
+                };
+                font-size: 22px;
+                font-weight: bolder;
+            }
+            p {
+                line-height: 1.6;
+                width: 80%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+// Start Our Services
+.our-service {
+    background-color: #add8e60f;
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    };
+    .container {
+        display: flex;
+        .service1 {
+            margin-top: 50px;
+            width: 50%;
+            margin: 0 1%;
+            h4 {
+                font-size: 20px;
+                color: $text-color;
+                margin-bottom: 0;
+            }
+            h2 {
+                font-size: 50px;
+                font-weight: bolder;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            p{
+                line-height: 1.6;
+                color: $text-color;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+            button {
+                display: block;
+                margin-bottom: 10px;
+                padding: 12px 20px;
+                width: 80%;
+                text-align: left;
+                position: relative;
+                outline: none;
+                &:before {
+                    content: "+";
+                    font-size: 20px;
+                    font-weight: bolder;
+                    position: absolute;
+                    right: 15px;
+                    top: 10px;
+                    color: #FFF;
+                }
+            }
+        }
+        .service2 {
+            margin-top: 50px;
+            width: 50%;
+            padding: 0 50px;
+            h4 {
+                font-size: 20px;
+                color: $text-color;
+                margin-bottom: 0;
+            }
+            h2 {
+                font-size: 40px;
+                font-weight: bolder;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            p{
+                line-height: 1.6;
+                color: $text-color;
+                margin-bottom: 20px;
+                font-size: 18px;
+            }
+            button {
+                background-color: #FF3E81;
+                padding: 15px 20px;
+                font-size: 18px;
+            }
+        }
+        .image {
+            width: 48%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+// Start our-pricing 
+.our-pricing {
+    background-color: #add8e63b;
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    };
+    .priceing {
+        display: flex;
+        justify-content: center;
+        .table {
+            padding: 20px;
+            width: calc(90% / 3);
+            margin: 5%;
+            background-color: #FFF;
+            border-radius: 20px;
+            &:nth-last-of-type(2) {
+                border: 5px dashed #78C2FF;
+                transform: scale(1.1, 1.1);
+            }
+            h1 {
+                color: $text-color;
+                margin: 0;
+                font-size: 50px;
+                font-weight: bolder;
+            }
+            span {
+                color: $main-color;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            p{
+                line-height: 1.6;
+            }
+            ul {
+                width: 80%;
+                margin: auto;
+                font-size: 14px;
+                li {
+                    text-align: left;
+                    margin-bottom: 15px;
+                }
+            }
+            button {
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+
+// Start our Clients 
+.our-clients {
+    padding: {
+        top: 30px;
+        bottom: 30px
+    };
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    };
+    h2 {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    text-align: center;
+    .comp {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        font-size: 30px;
+        font-style: italic;
+    }
+}
+
+
+// Start Desing our-updates 
+.our-updates {
+    background-color: #add8e63b;
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    }
+    .card {
+        padding: {
+            top: 15px;
+            bottom: 15px;
+        };
+        border-radius: 15px;
+        background-color: #FFF;
+        float: left;
+        width: calc(97% / 3);
+        text-align: center;
+        margin: 0 .5%;
+        p{
+            line-height: 1.6;
+        }
+        span {
+            width: 40%;
+            margin: auto;
+            display: block;
+            background-color: #78C2FF;
+            color: #FFF;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+    }
+}
+
+// Start question Page
+.question {
+    padding: {
+        top: 30px;
+        bottom: 30px;
+    };
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .quest {
+        width: 40%;
+        margin: auto;
+        margin-top: 50px;
+        button {
+            padding: 10px 15px;
+        }
+    }
+}

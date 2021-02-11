@@ -1,0 +1,55 @@
+.footer {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    };
+    background-color: #303669;
+    color: #FFF;
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    };
+    .code {
+        span {display: block;
+            width: 240px;
+            line-height: 1.5;
+        }
+    }
+    .about {
+        li {
+            margin-bottom: 10px;
+        }
+    }
+    .contact {
+        ul {
+            font-size: 14px;
+            li {
+                overflow: hidden;
+                margin-bottom: 10px;
+                i {
+                    width: 10%;
+                    float: left;
+                    font-size: 20px;
+                    color: #A4C4F3;
+                }
+                span {
+                    width: 80%;
+                    float: left;
+                    line-height: 1.5;
+                }   
+            }
+        }
+    }
+    .social {
+        ul {
+            li {
+                display: inline-block;
+                margin-right: 10px;
+                font-size: 20px;
+                color: #A4C4F3;
+            }
+        }
+    }
+}

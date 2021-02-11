@@ -1,0 +1,370 @@
+.list-unstyle {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-button {
+  background-color: #3a88ec;
+  border: none;
+  border-radius: 20px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-area {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.header-area .logo {
+  font-size: 25px;
+  color: #282E63;
+  padding-top: 15px;
+}
+.header-area .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.header-area .navbar .links {
+  font-size: 20px;
+  font-weight: bold;
+}
+.header-area .navbar .links li {
+  display: inline-block;
+  padding: 15px 10px;
+}
+.header-area .navbar .links li a {
+  text-decoration: none;
+  color: #282E63;
+}
+.header-area .navbar button {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 30px;
+  height: 40px;
+}
+.header-area .content-introduction {
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.header-area .content-introduction .image {
+  float: left;
+  width: 48%;
+  margin-right: 5%;
+}
+.header-area .content-introduction .image img {
+  max-width: 100%;
+}
+.header-area .content-introduction .text {
+  float: left;
+  width: 45%;
+  margin-left: 1%;
+}
+.header-area .content-introduction .text .head {
+  font-size: 30px;
+}
+.header-area .content-introduction .text .title {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.header-area .content-introduction .text .desc {
+  font-size: 20px;
+  line-height: 1.6;
+}
+.header-area .content-introduction .text button {
+  background-color: #FF3E81;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #303669;
+  color: #FFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .code span {
+  display: block;
+  width: 240px;
+  line-height: 1.5;
+}
+.footer .about li {
+  margin-bottom: 10px;
+}
+.footer .contact ul {
+  font-size: 14px;
+}
+.footer .contact ul li {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.footer .contact ul li i {
+  width: 10%;
+  float: left;
+  font-size: 20px;
+  color: #A4C4F3;
+}
+.footer .contact ul li span {
+  width: 80%;
+  float: left;
+  line-height: 1.5;
+}
+.footer .social ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #A4C4F3;
+}
+
+.our-feat {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.our-feat .container {
+  display: flex;
+  flex-direction: row;
+}
+.our-feat .container .icon {
+  padding-right: 17px;
+}
+.our-feat .container .icon i {
+  color: #3a88ec;
+}
+.our-feat .container .icon .title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.our-feat .container .icon p {
+  line-height: 1.6;
+  width: 80%;
+  margin: auto;
+}
+
+.our-service {
+  background-color: #add8e60f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.our-service .container {
+  display: flex;
+}
+.our-service .container .service1 {
+  margin-top: 50px;
+  width: 50%;
+  margin: 0 1%;
+}
+.our-service .container .service1 h4 {
+  font-size: 20px;
+  color: #282E63;
+  margin-bottom: 0;
+}
+.our-service .container .service1 h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.our-service .container .service1 p {
+  line-height: 1.6;
+  color: #282E63;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.our-service .container .service1 button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  width: 80%;
+  text-align: left;
+  position: relative;
+  outline: none;
+}
+.our-service .container .service1 button:before {
+  content: "+";
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: #FFF;
+}
+.our-service .container .service2 {
+  margin-top: 50px;
+  width: 50%;
+  padding: 0 50px;
+}
+.our-service .container .service2 h4 {
+  font-size: 20px;
+  color: #282E63;
+  margin-bottom: 0;
+}
+.our-service .container .service2 h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.our-service .container .service2 p {
+  line-height: 1.6;
+  color: #282E63;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.our-service .container .service2 button {
+  background-color: #FF3E81;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+.our-service .container .image {
+  width: 48%;
+}
+.our-service .container .image img {
+  width: 100%;
+}
+
+.our-pricing {
+  background-color: #add8e63b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.our-pricing .priceing {
+  display: flex;
+  justify-content: center;
+}
+.our-pricing .priceing .table {
+  padding: 20px;
+  width: calc(90% / 3);
+  margin: 5%;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+.our-pricing .priceing .table:nth-last-of-type(2) {
+  border: 5px dashed #78C2FF;
+  transform: scale(1.1, 1.1);
+}
+.our-pricing .priceing .table h1 {
+  color: #282E63;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.our-pricing .priceing .table span {
+  color: #3a88ec;
+  font-weight: bold;
+  font-size: 20px;
+}
+.our-pricing .priceing .table p {
+  line-height: 1.6;
+}
+.our-pricing .priceing .table ul {
+  width: 80%;
+  margin: auto;
+  font-size: 14px;
+}
+.our-pricing .priceing .table ul li {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.our-pricing .priceing .table button {
+  padding: 10px 20px;
+}
+
+.our-clients {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.our-clients h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.our-clients .comp {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.our-updates {
+  background-color: #add8e63b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.our-updates .card {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  background-color: #FFF;
+  float: left;
+  width: calc(97% / 3);
+  text-align: center;
+  margin: 0 0.5%;
+}
+.our-updates .card p {
+  line-height: 1.6;
+}
+.our-updates .card span {
+  width: 40%;
+  margin: auto;
+  display: block;
+  background-color: #78C2FF;
+  color: #FFF;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.question {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.question .container {
+  display: flex;
+  justify-content: space-between;
+}
+.question .quest {
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+}
+.question .quest button {
+  padding: 10px 15px;
+}
+
+/*# sourceMappingURL=home.css.map */

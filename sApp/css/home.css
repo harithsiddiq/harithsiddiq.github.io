@@ -1,0 +1,487 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card, .contact-us .contact .form input, .contact-us .contact .form textarea, .subscribe input, .priceing .table .subscribe input, .subscribe .priceing .table input, .priceing .table .card {
+  background-color: #FFF;
+  box-shadow: 0px 0px 10px 1px #EEE;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn {
+  border: 1px solid #FFF;
+  width: 150px;
+  height: 50px;
+  margin: 0 10px;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.btn:hover {
+  background-color: #FFF;
+  color: #6a11cb;
+}
+.btn i {
+  position: absolute;
+  left: 10px;
+  top: 18%;
+}
+.btn .body {
+  position: absolute;
+  right: 20px;
+  top: 4px;
+  text-align: left;
+}
+
+.main-button {
+  background-color: #7C4FE0;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.35s;
+  border: 1px solid #6a11cb;
+}
+.main-button:hover {
+  background-color: #FFF;
+  color: #7C4FE0;
+  border: 1px solid #7C4FE0;
+}
+
+.icon {
+  margin: 1%;
+  overflow: hidden;
+  float: left;
+  width: 9%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 1px #EEE;
+  transition: 0.35s;
+  color: #6a11cb;
+  border-radius: 5px;
+}
+.icon:hover {
+  background-color: #6a11cb;
+  color: #FFF;
+}
+
+.icon-r {
+  margin: 1%;
+  overflow: hidden;
+  float: left;
+  width: 9%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 1px #EEE;
+  transition: 0.35s;
+  color: #EEE;
+  border-radius: 5px;
+  background-color: #7C4FE0;
+}
+.icon-r:hover {
+  color: #FFF;
+}
+
+.header-area {
+  background-image: url("/images/teams.jpg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+.header-area .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  background-image: linear-gradient(120deg, #2575fc 0%, #6a11cb 100%);
+  z-index: 1;
+}
+.header-area .nav {
+  color: #FFF;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-area .nav .links {
+  width: 70%;
+  text-align: right;
+}
+.header-area .nav .links li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.header-area .nav .links li a {
+  text-decoration: none;
+  color: inherit;
+}
+.header-area .nav .logo {
+  width: 30%;
+}
+.header-area .introduction-text {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+}
+.header-area .introduction-text h1 {
+  font-size: 50px;
+}
+.header-area .introduction-text p {
+  line-height: 1.6;
+}
+.header-area .introduction-text .store-button {
+  display: flex;
+  justify-content: center;
+}
+.header-area .introduction-text span {
+  display: block;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+* {
+  -wwbkit-box-sizing: border-box;
+  -mos-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana sans-serif;
+}
+
+.contected-area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contected-area .container {
+  display: flex;
+  justify-content: space-between;
+}
+.contected-area .text {
+  flex: 1;
+}
+.contected-area .text h2 {
+  font-size: 40px;
+}
+.contected-area .text ul li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.contected-area .text ul li p {
+  padding: 0 20px 0 20px;
+  margin: 0;
+  float: left;
+  width: 88%;
+  line-height: 1.6;
+  margin-top: 3px;
+  color: #777;
+}
+.contected-area .phone {
+  flex: 1;
+  text-align: center;
+}
+
+.product {
+  background-color: #F6F9FE;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.product .container {
+  display: flex;
+}
+.product .container .phone {
+  width: 48%;
+  margin-right: 2%;
+}
+.product .container .phone img {
+  width: 500px;
+}
+.product .container .text {
+  width: 50%;
+}
+.product .container .text h2 {
+  font-size: 40px;
+}
+.product .container .text .message {
+  display: flex;
+  margin-bottom: 20px;
+}
+.product .container .text .message i {
+  line-height: 48px;
+  font-size: 20px;
+  color: #6a11cb;
+}
+.product .container .text .message p {
+  margin: 0 10px;
+  line-height: 1.5;
+}
+
+.is-work {
+  overflow: hidden;
+  background-image: linear-gradient(120deg, #2575fc 0%, #6a11cb 100%);
+  color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.is-work .p-desc {
+  width: 50%;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+.is-work .desc {
+  float: left;
+  width: calc(98% / 3);
+}
+.is-work .desc:not(:last-of-type) {
+  margin-right: 1%;
+}
+
+.our-cust {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.our-cust .test {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-cust .test .card, .our-cust .test .contact-us .contact .form input, .contact-us .contact .form .our-cust .test input, .our-cust .test .contact-us .contact .form textarea, .contact-us .contact .form .our-cust .test textarea, .our-cust .test .subscribe input, .subscribe .our-cust .test input {
+  width: calc(92% / 3);
+}
+.our-cust .test .card .body, .our-cust .test .contact-us .contact .form input .body, .contact-us .contact .form .our-cust .test input .body, .our-cust .test .contact-us .contact .form textarea .body, .contact-us .contact .form .our-cust .test textarea .body, .our-cust .test .subscribe input .body, .subscribe .our-cust .test input .body {
+  padding: 10px 20px;
+}
+.our-cust .test .card .starts, .our-cust .test .contact-us .contact .form input .starts, .contact-us .contact .form .our-cust .test input .starts, .our-cust .test .contact-us .contact .form textarea .starts, .contact-us .contact .form .our-cust .test textarea .starts, .our-cust .test .subscribe input .starts, .subscribe .our-cust .test input .starts {
+  color: gold;
+}
+.our-cust .test .card .title, .our-cust .test .contact-us .contact .form input .title, .contact-us .contact .form .our-cust .test input .title, .our-cust .test .contact-us .contact .form textarea .title, .contact-us .contact .form .our-cust .test textarea .title, .our-cust .test .subscribe input .title, .subscribe .our-cust .test input .title {
+  padding: 20px 0 0 0;
+  color: #7C4FE0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.our-cust .test .card .description, .our-cust .test .contact-us .contact .form input .description, .contact-us .contact .form .our-cust .test input .description, .our-cust .test .contact-us .contact .form textarea .description, .contact-us .contact .form .our-cust .test textarea .description, .our-cust .test .subscribe input .description, .subscribe .our-cust .test input .description {
+  color: #777;
+  line-height: 1.6;
+}
+.our-cust .test .card .person, .our-cust .test .contact-us .contact .form input .person, .contact-us .contact .form .our-cust .test input .person, .our-cust .test .contact-us .contact .form textarea .person, .contact-us .contact .form .our-cust .test textarea .person, .our-cust .test .subscribe input .person, .subscribe .our-cust .test input .person {
+  padding: 15px 30px;
+  background-color: #F6F9FE;
+  display: flex;
+}
+.our-cust .test .card .person img, .our-cust .test .contact-us .contact .form input .person img, .contact-us .contact .form .our-cust .test input .person img, .our-cust .test .contact-us .contact .form textarea .person img, .contact-us .contact .form .our-cust .test textarea .person img, .our-cust .test .subscribe input .person img, .subscribe .our-cust .test input .person img {
+  border-radius: 50%;
+  padding: 3px;
+  border: 1px solid #DDD;
+  margin-right: 15px;
+  margin-left: 0px;
+}
+.our-cust .test .card .person .info, .our-cust .test .contact-us .contact .form input .person .info, .contact-us .contact .form .our-cust .test input .person .info, .our-cust .test .contact-us .contact .form textarea .person .info, .contact-us .contact .form .our-cust .test textarea .person .info, .our-cust .test .subscribe input .person .info, .subscribe .our-cust .test input .person .info {
+  align-self: center;
+}
+
+.our-app {
+  background-color: #F6F9FE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.our-app .p-desc {
+  width: 50%;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+.our-app .featucres {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.our-app .featucres .desc {
+  float: left;
+  width: calc(98% / 3);
+}
+.our-app .featucres .desc:not(:last-of-type) {
+  margin-right: 1%;
+}
+
+.priceing {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.priceing .table {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.priceing .table .card, .priceing .table .contact-us .contact .form input, .contact-us .contact .form .priceing .table input, .priceing .table .contact-us .contact .form textarea, .contact-us .contact .form .priceing .table textarea, .priceing .table .subscribe input, .subscribe .priceing .table input {
+  position: relative;
+  width: 30%;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 1%;
+}
+.priceing .table .card i, .priceing .table .contact-us .contact .form input i, .contact-us .contact .form .priceing .table input i, .priceing .table .contact-us .contact .form textarea i, .contact-us .contact .form .priceing .table textarea i, .priceing .table .subscribe input i, .subscribe .priceing .table input i {
+  color: #7C4FE0;
+}
+.priceing .table .card h3, .priceing .table .contact-us .contact .form input h3, .contact-us .contact .form .priceing .table input h3, .priceing .table .contact-us .contact .form textarea h3, .contact-us .contact .form .priceing .table textarea h3, .priceing .table .subscribe input h3, .subscribe .priceing .table input h3 {
+  font-size: 30px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: #555;
+}
+.priceing .table .card .price, .priceing .table .contact-us .contact .form input .price, .contact-us .contact .form .priceing .table input .price, .priceing .table .contact-us .contact .form textarea .price, .contact-us .contact .form .priceing .table textarea .price, .priceing .table .subscribe input .price, .subscribe .priceing .table input .price {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+}
+.priceing .table .card ul, .priceing .table .contact-us .contact .form input ul, .contact-us .contact .form .priceing .table input ul, .priceing .table .contact-us .contact .form textarea ul, .contact-us .contact .form .priceing .table textarea ul, .priceing .table .subscribe input ul, .subscribe .priceing .table input ul {
+  margin: auto;
+}
+.priceing .table .card ul li, .priceing .table .contact-us .contact .form input ul li, .contact-us .contact .form .priceing .table input ul li, .priceing .table .contact-us .contact .form textarea ul li, .contact-us .contact .form .priceing .table textarea ul li, .priceing .table .subscribe input ul li, .subscribe .priceing .table input ul li {
+  color: #555;
+  padding: 20px 20px;
+  border-top: 1px solid #DDD;
+}
+.priceing .table .card ul li:last-of-type, .priceing .table .contact-us .contact .form input ul li:last-of-type, .contact-us .contact .form .priceing .table input ul li:last-of-type, .priceing .table .contact-us .contact .form textarea ul li:last-of-type, .contact-us .contact .form .priceing .table textarea ul li:last-of-type, .priceing .table .subscribe input ul li:last-of-type, .subscribe .priceing .table input ul li:last-of-type {
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 20px;
+}
+.priceing .table .card button, .priceing .table .contact-us .contact .form input button, .contact-us .contact .form .priceing .table input button, .priceing .table .contact-us .contact .form textarea button, .contact-us .contact .form .priceing .table textarea button, .priceing .table .subscribe input button, .subscribe .priceing .table input button {
+  position: absolute;
+  bottom: -20px;
+  left: 38%;
+}
+
+.our-team {
+  background-color: #F6F9FE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.our-team h2 {
+  margin-top: 0;
+}
+.our-team p {
+  width: 60%;
+  color: #777;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.our-team .members {
+  overflow: hidden;
+}
+.our-team .members div {
+  float: left;
+  width: 24%;
+  margin-right: 1%;
+  overflow: hidden;
+}
+.our-team .members div img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.subscribe {
+  width: 45%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.subscribe p {
+  color: #666;
+}
+.subscribe input, .subscribe button {
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.subscribe input {
+  padding: 15px 20px;
+  text-align: center;
+  border: none;
+  outline-color: #7C4FE0;
+}
+.subscribe button {
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.contact-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #F6F9FE;
+}
+.contact-us .title {
+  width: 50%;
+  margin: auto;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.contact-us .contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us .contact .phone {
+  width: 45%;
+}
+.contact-us .contact .phone p {
+  line-height: 1.6;
+  color: #777;
+}
+.contact-us .contact .phone h2 {
+  font-size: 40px;
+}
+.contact-us .contact .phone ul li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.contact-us .contact .phone ul li p {
+  padding: 0 20px 0 20px;
+  margin: 0;
+  float: left;
+  width: 88%;
+  line-height: 1.6;
+  margin-top: 3px;
+  color: #777;
+}
+.contact-us .contact .form {
+  width: 40%;
+  align-self: center;
+}
+.contact-us .contact .form form {
+  align-self: center;
+}
+.contact-us .contact .form input, .contact-us .contact .form textarea {
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  border: none;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,975 @@
+:root {
+    --main--color: #8BC34A
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+/* Scroll top button */
+.top {
+    display: block;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    z-index: 5;
+    right: 10px;
+    top: 85%;
+    text-align: center;
+    line-height: 50px;
+    color: var(--main--color);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid var(--main--color);
+}
+
+/* Scroll top button */
+
+/* start settings box */
+.setting-box {
+    position: fixed;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    background-color: white;
+    z-index: 999;
+    min-height: 100vh;
+    transition: .3s;
+    padding: 5px;
+}
+
+.setting-box.open {
+    left: 0;
+}
+
+.setting-box .fa-gear {
+    padding: 10px;
+}
+.setting-box .toggle-setting {
+    position: absolute;
+    right: -34px;
+    top: 100px;
+    background: white;
+    cursor: pointer;
+    opacity: .5;
+    transition: .2s;
+}
+
+.setting-box .toggle-setting:hover,
+.setting-box .toggle-setting.light{
+    opacity: 1;
+}
+
+.setting-box .option-box {
+    background-color: #EEE;
+    padding: 10px;
+}
+
+.setting-box .option-box h4{
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.setting-box .option-box .color-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.setting-box .option-box .color-list li{
+    width: 25px;
+    height: 25px;
+    background-color: lightcoral;
+    margin-left: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    border: 2px solid #EEE;
+}
+
+
+
+.setting-box .option-box .color-list li:first-child {
+    background: #4CAF50;
+}
+
+.setting-box .option-box .color-list li:nth-child(2) {
+    background: #e91e63
+}
+
+.setting-box .option-box .color-list li:nth-child(3) {
+    background: #ff9800
+}
+
+.setting-box .option-box .color-list li:nth-child(4){
+    background: #673ab7
+}
+
+.setting-box .option-box .color-list li:last-child {
+    background: #2196f3
+}
+
+.setting-box .option-box .color-list li.active {
+    border: 2px solid #FFF;
+}
+
+.setting-box .reste-option {
+    width: 190px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #F44336;
+}
+
+
+/* background box */
+.box-option {
+    background-color: #EEE;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+.box-option h4{
+    margin: 0 0 5px 0;
+    color: #555;
+}
+
+.box-option .bg-option,
+.box-option .bullets-option  {
+    width: 100%;
+    text-align: center;
+}
+
+.box-option .yes,
+.box-option .no {
+    display: inline-block;
+    width: 60px;
+    padding: 3px 5px;
+    margin-left: 5px;
+    background-color: var(--main--color);
+    color: #FFF;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: .5;
+    text-align: center;
+}
+
+.box-option span.active {
+    opacity: 1;
+}
+
+/* End Setting box */
+
+/* Starts Landing page */
+.landing-page {
+    min-height: 100vh;
+    background-image: url('/image/0.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.landing-page .overlay {
+    background-color: #111;
+    position: absolute;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-area {
+    color: #FFF;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.header-area .logo {
+    width: 300px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.list-container {
+    width: 100%;
+    text-align: right;
+}
+
+.header-area .list {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+}
+
+
+.header-area .list li {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.header-area .list li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+
+.header-area .list li a.active,
+.header-area .list li a:hover {
+    color: var(--main--color);
+} 
+
+.introduction-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 575px) {
+    .introduction-text h1{
+        font-size: 22px;
+    }
+}
+
+.introduction-text h1 {
+    margin-bottom: 5px;
+}
+
+.introduction-text h1 span {
+    color: var(--main--color)
+}
+
+.introduction-text p{
+    line-height: 1.6;
+    font-size: 20xp;
+    margin-top: 0;
+}
+
+
+.toggle-menu {
+    position: relative;
+    display: none;
+    width: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.header-area .toggle-menu.menu-active::before {
+    content: '';
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #FFF transparent;
+    position: absolute;
+    bottom: -13px;
+    left: 11px;
+}
+
+.toggle-menu span {
+    width: 100%;
+    height: 4px;
+    background: #FFF;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 991px) {
+    .header-area .toggle-menu {
+        display: inline-block;
+    }
+
+    .header-area .list {
+        display: none;
+    }
+
+    .header-area .list.open  {
+        display: block;
+        width: 100%;
+        background-color: #FFF;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 8px;
+        z-index: 5;
+    }
+
+    .header-area .list li {
+        display: block;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .header-area .list li a {
+        color: var(--main--color);
+    }
+
+   
+}
+
+/* End Landing Page */
+
+
+
+/* Start About Us */
+
+.about-us {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-us .info-box {
+    flex: 1;
+    padding: 20px;
+}
+.about-us .info-box h2 {
+    font-size: 30px;
+    color: var(--main--color);
+    margin-top: 0;
+
+}
+
+.about-us .info-box p {
+    line-height: 1.6;
+    color: #767676;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .about-us {
+        display: block;
+        text-align: center;
+    }
+    .about-us .info-box  p {
+        margin-bottom: 15px;
+    }
+}
+
+.about-us .image-box {
+    flex: 1;
+    text-align: center;
+}
+
+.about-us .image-box img {
+    max-width: 300px;
+}
+
+/* End About Us */
+
+/* Strat Skills Sectino */
+.skills {
+    background-color: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: var(--main--color);
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.skills .skill-box {
+    background-color: #FFF;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.skills .skill-box .skill-name {
+    width: 120px;
+    line-height: 30px;
+}
+
+@media (max-width: 575px) {
+    .skills .skill-box {
+        display: block;
+        text-align: center;
+    }
+    .skills .skill-box .skill-name {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.skills .skill-box .skill-progress {
+    background-color:#efecec;
+    text-align: right;
+    height: 30px;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skills .skill-box .skill-progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--main--color);
+    transition: .5s;
+}
+
+/* End Skills Sectino */
+
+
+/* Strat gallery section  */
+
+.gallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery h2 {
+    text-align: center;
+    color: var(--main--color);
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.gallery .images-box {
+    text-align: center;
+}
+
+
+.gallery .images-box img {
+    width: 180px;
+    height: 170px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #CCC;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.popup-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    z-index: 1000;
+}
+
+.popup-box {
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1100;
+}
+
+.popup-box img {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+
+/* End gallery Section */
+
+
+/* Strat desing timeline */
+.timeline {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EEE;
+}
+
+.timeline .timeline-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline .timeline-content::before{
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: var(--main--color);
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 0;
+}
+
+.timeline .timeline-content .year {
+    background-color: var(--main--color);
+    color: #FFF;
+    padding: 2px 5px;
+    width: 50px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.timeline .timeline-content .left,
+.timeline .timeline-content .right{
+    width: calc(50% - 30px);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.timeline .timeline-content .left {
+    float: left;
+}
+
+.timeline .timeline-content .right {
+    float: right;
+}
+
+.timeline .timeline-content .content {
+    padding: 20px;
+    background-color: #FFF;
+    margin-top: 20px;
+}
+
+.timeline .timeline-content .content h3 {
+    margin: 0 0 10px;
+}
+
+.timeline .timeline-content .content p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.clear {
+    clear: both;
+}
+
+.timeline .timeline-content .right::before {
+    left: -41px;
+}
+
+
+.timeline .timeline-content .left::before {
+    right: -41px;
+}
+
+.timeline .timeline-content .left::before,
+.timeline .timeline-content .right::before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 3px solid var(--main--color);
+    position: absolute;
+    top: 40px;
+}
+
+
+.timeline .timeline-content .left .content::before {
+    content: '';
+    border-style: solid;border-width: 10px;
+    border-color: transparent transparent transparent #FFF;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: -20px;
+    top: 40px;
+}
+
+.timeline .timeline-content .right .content::before {
+    content: '';
+    border-style: solid;border-width: 10px;
+    border-color: transparent #FFF transparent transparent ;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+}
+
+@media (max-width: 767px) {
+    .timeline .timeline-content .left,
+    .timeline .timeline-content .right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* End desing timeline */
+
+
+/* Strat Featrues section */
+.features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.features h2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: var(--main--color);
+    margin: 0 0 60px;
+}
+
+.features .feet-box {
+    width: calc(100% / 3);
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .features .feet-box {
+        width: calc(100% / 2)
+    }
+}
+
+@media (max-width: 575px) {
+    .features .feet-box {
+        width: 100%
+    }
+}
+
+.features .feet-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #888;
+}
+
+.features .feet-box h4 {
+    position: relative;
+}
+
+.features .feet-box h4::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: var(--main--color);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.features .feet-box p {
+    color: #706f6f;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.7;
+}
+
+/* End Features Section */
+
+/* Start testimonials */
+
+.testimonials {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--main--color);
+    left: 0;
+    top: 0;
+}
+
+
+
+.testimonials::after {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #333;
+    right: 0;
+    top: 0;
+}
+
+.testimonials .container {
+    position: relative;
+    z-index: 2;
+}
+
+.testimonials h2 {
+    margin: 0 0 30px;
+    color: #FFF;
+}
+
+.testimonials .ts-box {
+    width: calc(98% / 3);
+    float: left;
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.testimonials .ts-box:not(:last-of-type) {
+    margin-right: 1%;
+}
+
+.testimonials .ts-box > p {
+    margin: 0 0 20px;
+    color: #707070;
+    line-height: 1.5;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.testimonials .ts-box p:last-of-type {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.testimonials .ts-box img {
+    float: left;
+    margin-right: 10px;
+}
+
+.testimonials .ts-box h4 {
+    margin: 0 0 15px;
+}
+
+@media (max-width: 767px) {
+    .testimonials .ts-box {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* End testimonials */
+
+
+/* Start Nav Bullets */
+.nav-bullet {
+    position: fixed;
+    width: 30px;
+    height: 100px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+.nav-bullet .bullets {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--main--color);
+    border-radius: 50%;
+    margin: 0 0 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-bullet .bullets .tollkti {
+    width: 100px;
+    background-color: var(--main--color);
+    position: absolute;
+    padding: 4px 5px;
+    top: -4px;
+    right: 30px;
+    margin:  0 0 10px;
+    color: #FFF;
+    border-radius: 3px;
+    pointer-events: none;
+    display: none;
+}
+
+.nav-bullet .bullets:hover .tollkti{
+    display: block;
+}
+
+.nav-bullet .bullets .tollkti::before {
+    content: '';
+    border-style: solid;
+    border-width: 8px;
+    border-color: transparent transparent transparent var(--main--color);
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* End Nav Bullets */
+
+/* Start contact us section */
+.contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    background-image: url('/image/world_map.png');
+    background-size: cover;
+}
+
+.contact .container {
+    position: relative;
+    z-index: 2;
+}
+
+.contact .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.5);
+}
+
+.contact h2 {
+    text-align: center;
+    color: var(--main--color);
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+
+.contact form {
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact form .left {
+    float: left;
+    width: 49%;
+}
+
+.contact form .right {
+    float: right;
+    width: 49%;
+}
+
+.contact form input{
+    height: 40px;
+}
+
+.contact form input:not([type=submit]),
+.contact form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(255,255,255,.5);
+    border: 1px solid #CCC
+}
+
+.contact form input:not([type=submit]):focus,
+.contact form textarea:focus {
+    outline: 1px solid var(--main--color);
+}
+
+.contact form textarea {
+    height: 150px;
+}
+
+.contact form input:not([type=submit]):focus::-webkit-input-placeholder,
+.contact form textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: .2s;
+}
+
+.contact form input:not([type=submit]):focus::-ms-input-placeholder,
+.contact form textarea:focus::-ms-input-placeholder {
+    opacity: 0;
+    transition: .2s;
+}
+
+
+.contact form input:not([type=submit]):focus::-moz-input-placeholder,
+.contact form textarea:focus::-moz-input-placeholder {
+    opacity: 0;
+    transition: .2s;
+}
+
+.contact form input[type=submit] {
+    display: block;
+    width: 100%;
+    background-color: var(--main--color);
+    color: #FFF;
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+/* End contact us section */
+
+/* Strat Footer */
+    .footer {
+        background-color: #111;
+        height: 80px;
+        color: #FFF;
+        line-height: 80px;
+        font-size: 20px;
+    }
+/* End Footer */
+
+
+@media (min-width: 500px) { /* very Small Devices => landscape Phones */
+    .container {
+        max-width: 480px;
+    }
+}
+
+/* Start Grid System */
+@media (min-width: 576px) { /* Small Devices => landscape Phones */
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) { /* Meduim Device => tablet */
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) { /* Desctops */
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) { /* Large Screen */
+    .container {
+        max-width: 1140px;
+    }
+}
+/* Start Grid System */

@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    background: url(../img/new/CYMERA_20180606_122923.jpg) no-repeat;
+    background-size: cover
+}
+
+.container {
+    width: 900px;
+    margin: 3% auto;
+    height: 600px;
+}
+
+/* Start main content */
+
+.login_content {
+    overflow: hidden;
+    border-radius: 30px;
+    height: 580px
+}
+
+/* End main content */
+
+/* Start left content desing */
+
+.login_content .image_log {
+    float: left;
+    width: 50%;
+    height: 580px;
+    background: url(../img/bgsnap.jpg) no-repeat;
+    background-size: cover
+}
+
+
+.login_content .image_log h1 {
+    font-size: 4.5em;
+    margin: 15% 0 0 25%;
+    font-weight: bold;
+    font-family: fantasy;
+    color: #FFF
+}
+
+.login_content .image_log p {
+    color: #FFF;
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-left: 20%;
+    margin-top: 100px;
+    font-family: cursive;
+}
+
+
+/* End left content desing */
+
+/* Start right content desing */
+
+a {
+    text-decoration: none;
+    color: #63A2D5;
+}
+
+.login p a:hover{
+    color: #2ba02b;
+}
+
+.login_content .login {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    float: left;
+    background-color: #FFF;
+    height: 580px;
+    width: 46%;
+    padding: 3% 2%;
+}
+
+.login_content .login p {
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.login_content .login p:last-of-type {
+    font-size: 0.9em
+}
+
+
+
+/* Start desing form
+*************************/
+
+.login form {
+    margin-top: 50px;
+}
+
+.login form .radio {
+    margin: 50px 0 0 0;
+    color: #000;
+    padding-left: 15px;
+}
+
+
+.input-feild {
+    margin-top: 40px;
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+    background-color: #1D8E8C;
+    border-radius: 10px;
+}
+
+.input-feild .f-name {
+    color: #FFF;
+    float: left;
+    width: 30%;
+    height: 35px;
+    border-radius: 10px 0 0 10px;
+    background-color: #1D8E8C;
+    text-align: left;
+}
+
+.input-feild .f-name p {
+    margin: 10px auto;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-left: 20%;
+
+}
+
+.input-feild .f-inp {
+    border-right: 10px;
+    float: left;
+    width: 70%;
+    height: 35px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    margin-left: 120px;
+    text-align: center;
+    padding: 12px 40px;
+    background: none;
+    background-color: #AB5D8F;
+    border: 0;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #FFF
+} 
+
+
+
+
+
+/* End desing form
+***************************/
+
+/* End right content desing */
+
+/* Start My Freamwork */
+
+.input-sty {
+    padding-left: 5px;
+    color: #FFF;
+    float: left;
+    height: 35px;
+    border: 0;
+    width: 100%;
+    background-color: #74B4B3;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.
+
+
+
+/* End My Freamwork */

@@ -1,0 +1,127 @@
+/* Start Genral Sitting
+************************/
+
+* {
+    box-sizing: border-box
+}
+
+
+p {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background: url(../img/new/CYMERA_20180606_122923.jpg) no-repeat;
+    background-size: cover
+}
+
+/* Start Genral Sitting
+************************/
+
+.wrap {
+    width: 400px;
+    height: 500px;
+    margin: 80px auto;
+    background-color: #FFF;
+    border-radius: 30px
+}
+
+.wrap .logo {
+    width: 100%;
+    float: left;
+    height: 180px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    background-color: #1D8E8C
+}
+
+.wrap .logo .logo-img{
+    background: url(../img/logo_id.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -40px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #1D8E8C;
+    height: 90%;
+    border-radius: 100%;
+    border: 8px solid #77B3B1;
+}
+
+
+.wrap .fealid {
+    float: left;
+    width: 100%;
+    background-color: #FFF
+}
+
+.wrap .fealid .form {
+    display: block;
+    padding: 1em 2em;
+    margin-top: 30px
+}
+
+
+
+.wrap .fealid .form .input-feild {
+    margin-top: 20px;
+    background-color: #1D8E8C;
+    border-radius: 10px;
+    overflow: hidden
+}
+
+
+.wrap .fealid .form .input-feild .f-name {
+    float: left;
+    width: 30%;
+    padding: 10px 15px;
+    color: #FFF
+}
+
+.wrap .fealid .form .input-feild .f-inp {
+    float: left;
+    width: 70%;
+}
+
+.fealid .pass-btn {
+    margin-top: 20px
+}
+
+.fealid .pass-btn p {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold
+}
+
+.fealid .pass-btn p a {
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    color: #000
+}
+
+.fealid .pass-btn p a:hover{
+    color: #1D8E8C 
+}
+
+.fealid .pass-btn input[type="submit"]{
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 10px 20px;
+    border: 0;
+    background-color: #A95C90;
+    color: #FFF;
+    border-radius: 10px
+    
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    background-color: #77B3B1;
+    color: #FFF;
+    border-radius: 10px
+}

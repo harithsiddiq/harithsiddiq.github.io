@@ -1,0 +1,70 @@
+.header-area {
+    padding: {
+        top: 15px;
+        bottom: 15px;
+    };
+    .logo {
+        font-size: 25px;
+        color: $text-color;
+        padding-top: 15px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        .links {
+            font-size: 20px;
+            font-weight: bold;
+            li {
+                display: inline-block;
+                padding: 15px 10px;
+                a {
+                    text-decoration: none;
+                    color: $text-color;
+                }
+            }
+        }
+        button {
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 30px;
+            height: 40px;
+        }
+    }
+    .content-introduction {
+        overflow: hidden;
+        padding: {
+            top: 80px;
+            bottom: 50px;
+        };
+      .image {
+          float: left;
+          width: 48%;
+          img {
+              max-width: 100%;
+          }
+          margin-right: 5%;
+      }
+      
+      .text {
+        float: left;
+        width: 45%;
+        margin-left: 1%;
+        .head {
+            font-size: 30px;
+        }
+        .title {
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .desc {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        button {
+            background-color: $acc-color;
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+      }
+    }
+}

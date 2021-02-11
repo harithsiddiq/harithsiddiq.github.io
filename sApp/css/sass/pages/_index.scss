@@ -1,0 +1,367 @@
+// Genarel Settings
+* {
+    @include boxSizing;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana sans-serif;
+}
+
+// start desing connection area
+.contected-area {
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    };
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text {
+        flex: 1;
+        h2 {
+            font-size: 40px;
+        }
+        ul {
+            li {
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                p {
+                    padding: 0 20px 0 20px;
+                    margin:0;
+                    float: $f-left;
+                    width: 88%;
+                    line-height: 1.6;
+                    margin-top: 3px;
+                    color: #777;
+                }
+            }
+        }
+    }
+
+    .phone {
+       flex: 1;
+       text-align: center;
+    }
+}
+
+
+// start prouct section
+.product {
+    background-color: #F6F9FE;
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    };
+    .container {
+        display: flex;
+        .phone {
+            width: 48%;
+            margin-right: 2%;
+            img {
+                width: 500px;
+            }
+        }
+        .text{
+            width: 50%;
+            h2 {
+                font-size: 40px;
+            }
+            .message {
+                display: flex;
+                margin-bottom: 20px;
+                i {
+                    line-height: 48px;
+                    font-size: 20px;
+                    color: #6a11cb;
+                }
+                p{
+                    margin: 0 10px;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
+
+// start desing how is work section
+.is-work {
+    overflow: hidden;
+    background-image: $gridiant-color;
+    color: #FFF;
+    padding: {
+        top: 80px;
+        bottom: 80px;
+    };
+
+    .p-desc {
+        width: 50%;
+        margin: 20px auto;
+        line-height: 1.6;
+    }
+    .desc {
+        float: $f-left;
+        width: calc(98% / 3);
+        &:not(:last-of-type) {
+            margin-right: 1%;
+        }
+    }
+}
+
+
+// Start our customer saing
+.our-cust {
+    padding: {
+        top: 80px;
+        bottom: 80px;
+    };
+    .test {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        .card {
+            .body {
+                padding: 10px 20px;
+            }
+            .starts {
+                color: gold;
+            }
+            width: calc(92% / 3);
+            .title {
+                padding: 20px 0 0 0;
+                color: $purple;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .description {
+                color: #777;
+                line-height: 1.6;
+            }
+
+            .person {
+                padding: 15px 30px;
+                background-color: #F6F9FE;
+                display: flex;
+                img {
+                    border-radius: 50%;
+                    padding: 3px;
+                    border: 1px solid #DDD;
+                    margin-right: 15px;
+                    margin-left: 0px;
+                }
+                .info {
+                    align-self: center;
+                }
+            }
+        }
+    }
+}
+
+// start why our app 
+.our-app {
+    background-color: #F6F9FE;
+    padding: {
+        top: 80px;
+        bottom: 80px;
+    };
+
+    .p-desc {
+        width: 50%;
+        margin: 20px auto;
+        line-height: 1.6;
+    }
+    .featucres{
+        overflow: hidden;
+        margin-bottom: 50px;
+    .desc {
+        float: $f-left;
+        width: calc(98% / 3);
+        &:not(:last-of-type) {
+            margin-right: 1%;
+        }
+    }
+}
+}
+
+// Start pricing section
+.priceing {
+    padding: {
+        top: 80px;
+        bottom: 80px;
+    };
+    .table {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        .card{
+            @extend .card;
+            position: relative;
+            width: 30%;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 1%;
+            i{
+                color: $purple;
+            }
+            h3 {
+                font-size: 30px;
+                margin: 10px;
+                text-transform: uppercase;
+                color: #555;
+            }
+            .price{
+                font-size: 50px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                display: block;
+            }
+            ul {
+                margin: auto;
+                li {
+                    color: #555;
+                    padding: 20px 20px;
+                    border-top: 1px solid #DDD;
+                    &:last-of-type {
+                    border-bottom: 1px solid #DDD;
+                    margin-bottom: 20px;
+                    }
+                }
+            }
+
+            button {
+                position: absolute;
+                bottom:-20px;
+                left: 38%;
+            }
+        }
+    }
+}
+// Start our team Section
+.our-team {
+    background-color: #F6F9FE;
+    h2{
+        margin-top: 0;
+    }
+    p {
+        width: 60%;
+        color: #777;
+        margin: {
+            left: auto;
+            right: auto;
+            bottom: 30px;
+        };
+
+    }
+    padding: {
+        top: 80px;
+        bottom: 80px;
+    };
+    .members {
+        overflow: hidden;
+        div {
+            float: $f-left;
+            width: 24%;
+            margin-right: 1%;
+            overflow: hidden;
+            img {
+                width: 100%;
+                border-radius: 5%;
+
+            }
+        }
+    }
+}
+
+// Strat subscribe Sectin
+
+.subscribe {
+    width: 45%;
+    margin: auto;
+    padding: {
+        top: 80px;
+        bottom: 80px;
+    };
+
+    p{
+        color: #666;
+    }
+    input, button{
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    input {
+        padding: 15px 20px;
+        text-align: center;
+        border: none;
+        outline-color: $purple;
+        @extend .card
+    }
+
+    button {
+        padding: 15px 20px;
+        cursor: pointer;
+    }   
+}
+
+// Sart desing contact us Section
+.contact-us {
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    };
+    background-color: #F6F9FE;
+    .title {
+        width: 50%;
+        margin: auto;
+        color: #777;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }   
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        .phone {
+            width: 45%;
+            p{
+                line-height: 1.6;
+                color: #777;
+            }
+            h2 {
+                font-size: 40px;
+            }
+            ul {
+                li {
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                    p {
+                        padding: 0 20px 0 20px;
+                        margin:0;
+                        float: $f-left;
+                        width: 88%;
+                        line-height: 1.6;
+                        margin-top: 3px;
+                        color: #777;
+                    }
+                }
+            }
+        }
+        .form {
+            width: 40%;
+            form {
+                align-self: center;
+            }
+            align-self: center;
+            input, textarea {
+                width: 100%;
+                padding: 10px 20px;
+                display: block;
+                @extend .card;
+                border: none;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

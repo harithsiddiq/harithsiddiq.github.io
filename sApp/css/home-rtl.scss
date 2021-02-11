@@ -1,0 +1,46 @@
+$text-right: left;
+$text-left: right;
+
+$f-left: right;
+$f-right: left;
+
+.header-area{
+    .nav {
+        .links {
+            text-align: $text-right;
+        }
+    }
+}
+
+.contected-area {
+    .text {
+        ul {
+            li {
+                p {
+                    float: $f-left;
+                }
+            }
+        }
+    }
+
+}
+.icon {
+    float: $f-left;
+}
+
+.contact {
+
+    .phone {
+        ul {
+            li {
+                p {
+                    float: $f-left;
+                }
+            }
+        }
+    }
+}
+
+.icon-r {
+    float: $f-left;
+}

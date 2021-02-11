@@ -1,0 +1,569 @@
+/* Genral Sitting  */
+
+* {
+	box-sizing: border-box;
+}
+
+/* Genral Sitting  */
+
+/*Start Upper Bar Desing*/
+
+.upper-bar {
+	background: #08526d;
+	padding: 5px 8px;
+
+}
+
+.upper-bar span {
+	padding: 5px 10px;
+	color: white;
+	display: inline-block;
+	border: 1px solid #08526d;
+}
+
+.upper-bar .right span:hover {
+	cursor: pointer;
+	border: 1px solid #dc3545;
+}
+
+/*End Upper Bar Desing*/
+
+/*Strat navbar*/
+
+.navbar {
+	padding: 16px 0;
+
+}
+
+.navbar-brand span:first-child {
+	color: #08526d;
+	font-weight: 700;
+	font-size: 25px
+}
+
+.navbar-brand span:last-child {
+	font-size: 25px;
+	color: #dc3545
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: #08526d;
+	font-size: 18px;
+	margin-left: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link {
+	color: #dc3545
+}
+
+/*End navbar*/
+
+/*Strat slider*/
+
+.slider {
+	background: #EEE;
+}
+
+.slider .carousel-inner {
+	display: flex;
+	align-items: center;
+	justify-content: left
+}
+
+.slider .carousel-inner h1 {
+	position: absolute;
+	z-index: 3;
+	color: #fff;
+	left: 50px;
+	font-size: 50px
+}
+
+
+.slider .carousel-inner h1 span {
+	background: #dc3545;
+	padding: 0px;
+	line-height: 1.6;
+}
+
+.slider .carousel-inner .overlay {
+	position: relative;
+	background-color: rgba(0, 1, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	 !important z-index: 2;
+}
+
+.slider .carousel-item {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.slider .carousel-one {
+	background: url('../image/home.jpg');
+}
+
+.slider .carousel-tow {
+	background: url('../image/pepole.jpg');
+}
+
+.slider .carousel-three {
+	background: url('../image/notebook.jpg');
+}
+
+.carousel-indicators li {
+	height: 5px
+}
+
+/*End slider */
+
+/* Strat our features */
+
+.features {
+	padding: 20px 0
+}
+
+.features h2 {
+	color: #08526d;
+	margin-bottom: 35px
+}
+
+.features i {
+	color: white;
+	background: #dc3545;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.features h3 {
+	font-size: 23px;
+	line-height: 1.7;
+	color: #08526d;
+}
+
+.features p {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #999;
+}
+
+
+/*End our features*/
+
+/* Strat company section */
+
+.company {
+	background: #f0f5f7;
+	padding: 80px 0
+}
+
+.company h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-bottom: 20px
+}
+
+.company p:first-of-type {
+	line-height: 1.5;
+	color: #444;
+	font-size: 18px;
+	padding: 0 60px
+}
+
+.company p:last-of-type {
+	font-weight: normal;
+	font-size: 18px;
+	margin-bottom: 40px
+}
+
+.company button {
+	text-transform: uppercase;
+	padding: 10px 30px
+}
+
+
+/* End company section */
+
+/* Strat featured-work */
+
+.featured-work {
+	padding: 80px 0
+}
+
+.featured-work h2 {
+	font-size: 50px;
+	margin-bottom: 20px
+}
+
+.featured-work p {
+	line-height: 1.7;
+	color: #444;
+	font-size: 18px;
+	width: 80%;
+	margin: auto;
+}
+
+.featured-work ul {
+	padding: 50px 0;
+}
+
+.featured-work ul li {
+	border: 2px solid #08526d;
+	margin-left: 10px;
+	padding: 5px 20px;
+	margin-bottom: 10px;
+	color: #08526d
+}
+
+.featured-work ul li.active,
+.featured-work ul li:hover {
+	background-color: #dc3545;
+	color: white;
+	border: 2px solid #dc3545;
+}
+
+.featured-work ul li:hover {
+	cursor: pointer
+}
+
+.featured-work .row {
+	margin: 0
+}
+
+.featured-work .row .col-md {
+	padding: 0;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.featured-work .row .col-md img {
+	width: 100%;
+}
+
+
+/*  End featured-work*/
+
+/* Start latest-post*/
+
+.latest-post {
+	margin-bottom: 80px
+}
+
+.card {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.card h4 {
+	color: #08526d;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.card a {
+	color: #dc3545
+}
+
+
+.card h6 {
+	color: #d5d5d5 !important;
+}
+
+.card p {
+	color: #888;
+}
+
+
+
+/*  End latest-post*/
+
+/* Strat testimonials section*/
+
+.testimonials {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: url('../image/pepole.jpg');
+	position: relative;
+	height: 600px;
+}
+
+.testimonials .overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	background-color: rgba(1, 1, 1, 0.7)
+}
+
+.testimonials .container {
+	position: relative;
+	z-index: 3;
+}
+
+.testimonials .carousel-caption {
+	top: 20%;
+}
+
+.col-md-2.no-padding{
+	padding: 0px !important;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+
+
+.testimonials .carousel-caption img {
+	border-radius: 50%;
+	margin: 20px 0;
+}
+
+.testimonials .carousel-inner {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.testimonials .carousel-indicators {
+	margin-bottom: 25px
+}
+
+
+
+/* End testimonials section
+
+
+
+/* start Pricing table 
+
+.pricing-table {
+	background-color: #f4f4f4;
+	padding: 100px 0;
+	display: flex;
+
+}
+
+
+.pricing-table .card {
+	/*	margin-top: 40px;*/
+	margin-bottom: 20px;
+	padding: 40px 0;
+	flex: 1
+}
+
+.pricing-table .card-body {
+	padding: 0;
+}
+
+.pricing-table .card h4 {
+	color: #08526d;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.pricing-table .card h6 {
+	color: #999 !important;
+	margin-bottom: 30px !important;
+	font-size: 16px
+}
+
+.pricing-table .card p {
+	color: #08526d;
+	background-color: #EEE;
+	width: 100%;
+	padding: 20px;
+	font-size: 30px;
+	font-weight: bold
+}
+
+.pricing-table .card p span {
+	font-size: 16px;
+	font-weight: bold
+}
+
+.pricing-table .list-group-item {
+	border: none
+}
+
+.pricing-table .card a {
+	color: #FFF;
+	margin-top: 10px;
+	padding: 6px 40px
+}
+
+.pricing-table div:nth-child(2) .card p {
+	background-color: #dc3545;
+	color: #FFF;
+
+}
+
+.pricing-table .col-b1 {
+	position: relative;
+	top: -15px
+}
+
+@media screen and (max-width: 767px) {
+	.pricing-table .col-b1 {
+		flex: 1;
+		order: -1;
+		justify-content: flex-start
+	}
+}
+
+
+/* End Pricing table */
+
+/* Strat Choose us Section */
+.choose-us img {
+	max-width: 100%;
+	
+}
+
+.choose-us .col-6{padding: 0}
+
+.choose-us .col-6:last-child{
+	padding-top: 40px;
+	background-color: #08526d;
+	color: #FFF;
+	padding-left: 40px
+
+}
+
+.choose-us .col-6:last-child p{
+	width: 90%;
+	text-align: left;
+}
+
+/* End Choose us Section */
+
+
+/* Start statistics Section */
+.Statistics {
+	padding: 100px 0 80px;
+	color: #08526d;
+	background-color: #f4f4f4;
+	font-size: 22px
+}
+
+.Statistics .col-sm{margin-bottom: 16px;}
+.Statistics span{font-size: 30px;}
+
+.Statistics p{
+	font-size: 16px;
+	color: #dc3545;
+	text-transform: uppercase;
+}
+/* End statistics Section */
+
+
+/* Start contact Section */
+.contact {
+	background-color: #dc3545;
+	color: #FFF;
+	font-size: 20px;
+	padding: 100px 0;
+}
+
+.contact a{
+	border: 2px solid white;
+    padding: 5px 35px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+	cursor: pointer;
+}
+
+/* End contact Section */
+
+
+/* Start footer section */
+.footer{
+	padding: 80px 0;
+}
+
+
+
+.footer p:first-child{
+	color: #08526d;
+    font-weight: 700;
+    font-size: 25px
+}
+
+.footer p span{
+	font-size: 25px;
+    color: #dc3545;
+	font-weight: 100
+}
+
+.footer p{
+	color: #777;
+    line-height: 2;
+	text-align: justify
+}
+
+.footer a {
+	cursor: pointer
+}
+
+.footer a .fa-paly{
+	color: #08526d;
+	
+}
+
+.footer h4{margin-bottom: 40px}
+
+.footer li{
+	color: #08526d;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.footer li::before{
+	content: "> ";
+}
+
+.contact1 p span{
+	color: #08526d;
+	font-size: 16px;
+	font-weight: 600
+}
+/* End footer section */
+
+/* Start footer Links section */
+.link{
+	padding: 20px 0 0;
+	border-top: 2px solid gray;
+	color: #FFF;
+	background-color: #08526d
+ }
+
+.link i{
+	cursor: pointer;
+	padding-left: 20px
+}
+
+
+
+/* Start footer Links section */
+
+
+
+
+
+
+
+
+
+
+

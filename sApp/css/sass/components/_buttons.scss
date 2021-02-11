@@ -1,0 +1,81 @@
+.btn {
+    border: 1px solid #FFF;
+    width: 150px;
+    height: 50px;
+    margin:0 10px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .35s;
+    &:hover{
+        background-color: #FFF;
+        color: #6a11cb;
+    }
+    i {
+        position: absolute;
+        left: 10px;
+        top: 18%;
+    }
+
+    .body {
+        position: absolute;
+        right: 20px;
+        top: 4px;
+        text-align: left;
+    
+    }
+}   
+
+
+.main-button {
+    background-color: $purple;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer;
+    transition: .35s;
+    border: 1px solid #6a11cb;
+    &:hover {
+        background-color: #FFF;
+        color: $purple;
+        border: 1px solid $purple
+    }
+}
+
+.icon {
+    margin: 1%;
+    overflow: hidden;
+    float: $f-left;
+    width: 9%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px #EEE;
+    transition: .35s;
+    color: #6a11cb;
+    border-radius: 5px;
+    &:hover {
+        background-color: #6a11cb;
+        color: #FFF;
+    }
+}
+
+.icon-r {
+    margin: 1%;
+    overflow: hidden;
+    float: $f-left;
+    width: 9%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px #EEE;
+    transition: .35s;
+    color: #EEE;
+    border-radius: 5px;
+    background-color: $purple;
+    &:hover {
+        color: #FFF;
+    }
+}

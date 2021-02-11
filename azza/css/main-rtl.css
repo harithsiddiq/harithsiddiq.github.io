@@ -1,0 +1,55 @@
+body {
+  font-family: 'Cairo', sans-serif !important;
+}
+.navbar-nav {
+  margin-right: auto;
+  margin-left: 0px !important;
+}
+
+.azza-vision {
+  text-align: right;
+}
+
+.header .azza-vision button {
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.pro_list {
+  padding: 0;
+}
+
+.works {
+  text-align: right;
+}
+
+.contact-way h6 {
+  text-align: right;
+}
+
+.get-in .contact-way .way .text {
+  text-align: right;
+}
+
+.send {
+  float: right;
+}
+
+.footer {
+  text-align: right;
+}
+.footer ul {
+  padding: 0;
+}
+
+.get-in .contact-way .way .icon {
+  padding: 18px;
+}
+
+.get-in .contact-way .way .text {
+  color: #777;
+}
+
+/*# sourceMappingURL=main-rtl.css.map */
