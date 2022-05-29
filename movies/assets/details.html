@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700" rel="stylesheet">
+    <title>Filmer</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <!-- <div class="logo">
+                    <img src="./assets/images/logo.svg" alt="filmer">
+                </div> -->
+                <div class="logo-1">
+                    <ion-icon name="film-outline"></ion-icon>
+                    Filmer
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link">home</a></li>
+                    <li><a href="#" class="nav-link">movie</a></li>
+                    <li><a href="#" class="nav-link">tv show</a></li>
+                    <li><a href="#" class="nav-link">web series</a></li>
+                    <li><a href="#" class="nav-link">pricing</a></li>
+                </ul>
+                <div class="nav-options">
+                    <span class="search">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </span>
+                    <button class=" btn-primary">
+                        sing in
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+   <main>
+       <article>
+
+           Details
+
+       </article>
+   </main>
+
+   <footer class="footer">
+        <div class="top-footer">
+            <div class="container">
+                <nav class="navbar">
+                    
+                    <div class="logo-1">
+                        <ion-icon name="film-outline"></ion-icon>
+                        Filmer
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav-link">home</a></li>
+                        <li><a href="#" class="nav-link">movie</a></li>
+                        <li><a href="#" class="nav-link">tv show</a></li>
+                        <li><a href="#" class="nav-link">web series</a></li>
+                        <li><a href="#" class="nav-link">pricing</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <p class="copy">© 2022 <span>Hari Desing</span>. All Rights Reserved</p>
+            </div>
+        </div>
+   </footer>
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        const header = document.querySelector("header");
+
+        window.addEventListener("scroll", function () {
+
+        window.scrollY >= 15 
+        ? header.classList.add("active")
+        : header.classList.remove("active");
+
+});
+    </script>
+
+</body>
+</html>
