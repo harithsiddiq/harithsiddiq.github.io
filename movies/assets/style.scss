@@ -3,7 +3,7 @@
 :root {
     --white: hsl(0, 100%, 100%);
     --yello: hsl(57, 97%, 45%);
-    --yello: lightgreen;
+    // --yello: lightgreen;
     --dark-blue: hsl(225, 25%, 9%);
     --gray: hsl(0, 0%, 74%);
 }
@@ -355,7 +355,7 @@ ul, ol {
     overflow: hidden;
 
     .hero-content {
-        margin: 0 30px;
+        margin: 0 40px;
         max-width: 600px;
 
         .site-name {
@@ -436,7 +436,6 @@ ul, ol {
         align-items: center;
         gap: 10px;
         margin-top: 50px;
-        margin-left: 10px;
         background-color: var(--yello);
         color: var(--dark-blue);
         &:hover {

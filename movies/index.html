@@ -47,7 +47,7 @@
 
             <!-- Start Hero Section  -->
             <div class="hero" id="hero">
-                <div class="containerX">
+                <div class="containers">
                     <div class="hero-content">
                         <h2 class="site-name">Filmer</h2>
                         <p class="hero-title">Unlimited <strong>Movie</strong>, TVs Shows, & More.</p>
@@ -71,11 +71,12 @@
                                 </div>
                             </div>
                         </div>
+                        <button class="btn-primary watch">
+                            <ion-icon name="play"></ion-icon>
+                                 watch now
+                            </button>
                     </div>
-                    <button class="btn-primary watch">
-                    <ion-icon name="play"></ion-icon>
-                         watch now
-                    </button>
+                    
                 </div>
             </div>
             <!-- End Hero Section -->
@@ -661,6 +662,17 @@
             ? header.classList.add("active")
             : header.classList.remove("active");
         });
+
+
+        let colors = ['lightcoral', 'lightpink', 'lightgreen', 'hsl(57, 97%, 45%)'];
+        let i = 0;
+        let timeInterval = setInterval(function() {
+            console.log(`${colors[3]}`);
+            document.documentElement.style.setProperty('--yello', `${colors[3]}`);
+        }, 5000);
+
+
+
     </script>
 
 </body>

@@ -1,7 +1,6 @@
 :root {
   --white: hsl(0, 100%, 100%);
   --yello: hsl(57, 97%, 45%);
-  --yello: lightgreen;
   --dark-blue: hsl(225, 25%, 9%);
   --gray: hsl(0, 0%, 74%);
 }
@@ -321,7 +320,7 @@ header .navbar .nav-options .search {
   overflow: hidden;
 }
 .hero .hero-content {
-  margin: 0 30px;
+  margin: 0 40px;
   max-width: 600px;
 }
 .hero .hero-content .site-name {
@@ -392,7 +391,6 @@ header .navbar .nav-options .search {
   align-items: center;
   gap: 10px;
   margin-top: 50px;
-  margin-left: 10px;
   background-color: var(--yello);
   color: var(--dark-blue);
 }
