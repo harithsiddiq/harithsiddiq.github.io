@@ -100,7 +100,7 @@
                     <ul class="movei-list">
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/upcoming-2.png" alt="up-1">
                                     </figure>
@@ -126,7 +126,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/upcoming-1.png" alt="up-1">
                                     </figure>
@@ -152,7 +152,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/upcoming-3.png" alt="up-1">
                                     </figure>
@@ -178,7 +178,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/upcoming-4.png" alt="up-1">
                                     </figure>
@@ -276,7 +276,7 @@
                     <ul class="movei-list">
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/movie-1.png" alt="up-1">
                                     </figure>
@@ -302,7 +302,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/movie-2.png" alt="up-1">
                                     </figure>
@@ -328,7 +328,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/movie-3.png" alt="up-1">
                                     </figure>
@@ -354,7 +354,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/movie-4.png" alt="up-1">
                                     </figure>
@@ -380,7 +380,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/movie-5.png" alt="up-1">
                                     </figure>
@@ -406,7 +406,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/movie-6.png" alt="up-1">
                                     </figure>
@@ -432,7 +432,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/movie-7.png" alt="up-1">
                                     </figure>
@@ -458,7 +458,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/movie-8.png" alt="up-1">
                                     </figure>
@@ -499,7 +499,7 @@
                     <ul class="movei-list">
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/series-1.png" alt="up-1">
                                     </figure>
@@ -525,7 +525,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/series-2.png" alt="up-1">
                                     </figure>
@@ -551,7 +551,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/series-3.png" alt="up-1">
                                     </figure>
@@ -577,7 +577,7 @@
                         </li>
                         <li>
                             <div class="move-card">
-                                <a href="#">
+                                <a href="movie-details.html">
                                     <figure class="card-banner">
                                         <img src="assets/images/series-4.png" alt="up-1">
                                     </figure>
@@ -668,7 +668,8 @@
         let i = 0;
         let timeInterval = setInterval(function() {
             console.log(`${colors[3]}`);
-            document.documentElement.style.setProperty('--yello', `${colors[3]}`);
+            let color = colors[Math.floor(Math.random() * 4)];
+            document.documentElement.style.setProperty('--yello', `${color}`);
         }, 5000);
 
 
